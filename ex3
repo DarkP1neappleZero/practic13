@@ -1,0 +1,6 @@
+path = input("Введите путь к файлу в формате Win (К примеру C:\Windows\System32\calc.exe): ")
+parts = path.split("\\")
+
+print("Части пути: ")
+for part in parts:
+    print(part)
